@@ -75,29 +75,86 @@ body{
     color: var(--Wenge-Brown);
 }
 
-.preparation-time-list{
+.preparation{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
     background-color: var(--Rose-White);
-    padding: 24px;
+    padding: 28px;
     border-radius: 12px;
 }
 
-.preparation-time-list span{
+.preparation-title{
     font-weight: 600;
     font-size: 20px;
     color: var(--Nutmeg);
 }
 
-.preparation-time-list ul{
+.preparation ul{
     display: flex;
     flex-direction: column;
     list-style: inside;
-    gap: 16px;
-    
+    gap: 12px;
+    margin-left: 8px;
 }
 
-.preparation-time-list ul li strong {
+.preparation ul li {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.preparation ul li span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.preparation ul li span strong {
+    color: var(--Wenge-Brown);
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.title {
+    font-family: var(--Young-Serif);
+    color: var(--Dark-Raspberry);
+    font-size: 28px;
+    font-weight: 400;
+}
+.ingredients ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: square inside;
+    margin-left: 8px; 
+}
+
+.ingredients ul li {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ingredients ul li span{
+    margin-left: 12px;
+    font-size: 16px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.instructions ol {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-left: 24px;
+}
+
+.instructions ol li strong {
     color: var(--Wenge-Brown);
 }
